@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="shortcut icon" href="./img/resume.ico">
+    <title>CV | Front-End Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__menu">
+          <div class="header__menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="#contacts" class="header__item-link">Contacts</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#about" class="header__item-link">About me</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#experience" class="header__item-link">Experience</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#education" class="header__item-link">Education</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#languages" class="header__item-link">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="wrapper">
+          <div class="hero__container">
+            <h1 class="hero__title" id="weirdtext">Leshkovich Anton</h1>
+            <h3 class="hero__subtitle">Front-End Developer</h3>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="wrapper">
+          <div class="info__container">
+            <div class="skills info__item skills_full-row">
+              <h2 class="skills__title title">Skills</h2>
+              <div class="skills__container">
+                <div class="skills__item">
+                  <h3 class="skills__item-title">HTML</h3>
+                  <svg class="circle__progress" viewbox="0 0 200 200">
+                    <circle class="circle-white" r="80" cx="100" cy="100" />
+                    <circle
+                      class="circle-orange circle-orange-html"
+                      r="80"
+                      cx="100"
+                      cy="100"
+                    />
+                    <text class="circle__progress-text" x="100" y="115">
+                      85%
+                    </text>
+                  </svg>
+                </div>
+                <div class="skills__item">
+                  <h3 class="skills__item-title">JavaScript</h3>
+                  <svg class="circle__progress" viewbox="0 0 200 200">
+                    <circle class="circle-white" r="80" cx="100" cy="100" />
+                    <circle
+                      class="circle-orange circle-orange-js"
+                      r="80"
+                      cx="100"
+                      cy="100"
+                    />
+                    <text class="circle__progress-text" x="100" y="115">
+                      75%
+                    </text>
+                  </svg>
+                </div>
+                <div class="skills__item">
+                  <h3 class="skills__item-title">CSS/SASS</h3>
+                  <svg class="circle__progress" viewbox="0 0 200 200">
+                    <circle class="circle-white" r="80" cx="100" cy="100" />
+                    <circle
+                      class="circle-orange circle-orange-css"
+                      r="80"
+                      cx="100"
+                      cy="100"
+                    />
+                    <text class="circle__progress-text" x="100" y="115">
+                      80%
+                    </text>
+                  </svg>
+                </div>
+                <div class="skills__item">
+                  <h3 class="skills__item-title">React</h3>
+                  <svg class="circle__progress" viewbox="0 0 200 200">
+                    <circle class="circle-white" r="80" cx="100" cy="100" />
+                    <circle
+                      class="circle-orange circle-orange-react"
+                      r="80"
+                      cx="100"
+                      cy="100"
+                    />
+                    <text class="circle__progress-text" x="100" y="115">
+                      45%
+                    </text>
+                  </svg>
+                </div>
+                <div class="skills__item">
+                  <h3 class="skills__item-title">Git</h3>
+                  <svg class="circle__progress" viewbox="0 0 200 200">
+                    <circle class="circle-white" r="80" cx="100" cy="100" />
+                    <circle
+                      class="circle-orange circle-orange-git"
+                      r="80"
+                      cx="100"
+                      cy="100"
+                    />
+                    <text class="circle__progress-text" x="100" y="115">
+                      70%
+                    </text>
+                  </svg>
+                </div>
+                <div class="skills__item">
+                  <h3 class="skills__item-title">TypeScript</h3>
+                  <svg class="circle__progress" viewbox="0 0 200 200">
+                    <circle class="circle-white" r="80" cx="100" cy="100" />
+                    <circle
+                      class="circle-orange circle-orange-ts"
+                      r="80"
+                      cx="100"
+                      cy="100"
+                      stroke-dasharray="450 502.4"
+                    />
+                    <text class="circle__progress-text" x="100" y="115">
+                      65%
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="education" class="education info__item">
+              <div class="wrapper">
+                <div class="education__container">
+                  <h2 class="education__tittle title">Education</h2>
+                  <p class="education__text info__text">
+                    Graduated from the Department of Materials Processing by
+                    Pressure of the Belarusian National Technical University,
+                    Faculty of Mechanics and Technology. Completed HTML Academy
+                    and Hexlet courses. In 2023, I successfully completed the
+                    <a class="info__link" href="https://app.rs.school/certificate/w61moo76" target="_blank">JavaScript/Front-end Pre-School</a> and
+                    <a class="info__link" href="https://app.rs.school/certificate/0nhbixtb" target="_blank">JavaScript/Front-end</a>
+                    courses at <a class="info__link" href="https://rs.school/" target="_blank">RS School</a> with certificates.
+                    I'm currently learning <span>Angular</span>.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="languages" class="languages info__item">
+              <div class="wrapper">
+                <div class="languages__container">
+                  <h2 class="language__title title">Languages</h2>
+                  <p class="languages__text info__text">
+                    I am learning English on my own. I watch films in English, watch educational YouTube channels, do practical exercises, and try to read documentation in English. In the future, I plan to enroll in courses and get a certificate. Now I rate my level of English at B1.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="about" class="about info__item">
+              <div class="wrapper">
+                <div class="about__container">
+                  <h2 class="about__title title">About me</h2>
+                  <p class="about__text info__text">
+                    I really like programming. I recently completed front-end
+                    JavaScript development courses at RS School, where I learned
+                    <span>the basics of JS, Node.js, async functions, working with API, OOP, TypeScript, etc.</span>
+                    I gained experience working in <span>Webpack</span> and <span>Figma</span>. In the final task of the course,
+                    I participated in the team development of an online store using <span>React</span>.
+                    I would also like to add about myself that I am responsible, stress-resistant,
+                    sociable, honest, I always try to complete assigned tasks within the specified
+                    time frame. In my free time I enjoy sports, study English, and do joint
+                    relaxation with friends (cinema, intellectual games, etc.).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="contacts" class="contacts info__item">
+              <h2 class="contacts__title title">Contacts</h2>
+              <div class="contacts__items">
+                <div class="contacts__item">
+                  <div class="contacts__item-content">
+                    <img
+                      src="./icons/location.svg"
+                      alt="location"
+                      class="contact__item-img"
+                    >
+                    <p class="contacts__item-text">
+                      <span>Location:</span> Minsk
+                    </p>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__item-content">
+                    <img
+                      src="./icons/telephone.svg"
+                      alt="telephone"
+                      class="contact__item-img"
+                    >
+                    <p class="contacts__item-text">
+                      <span>Telephone:</span> +375 (33) 39-33-833
+                    </p>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__item-content">
+                    <img
+                      src="./icons/email.svg"
+                      alt="email"
+                      class="contact__item-img"
+                    >
+                    <p class="contacts__item-text">
+                      <span>Email:</span>
+                      <a
+                        href="mailto:antonleshkovich@mail.ru"
+                        class="info__link"
+                        target="_blank"
+                        >antonleshkovich@mail.ru</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__item-content">
+                    <img
+                      src="./icons/gitHub.svg"
+                      alt="github"
+                      class="contact__item-img"
+                    >
+                    <p class="contacts__item-text">
+                      <span>GitHub:</span>
+                      <a
+                        href="https://github.com/AntonLeshkovich"
+                        class="info__link"
+                        target="_blank"
+                        >AntonLeshkovich</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__item-content">
+                    <img
+                      src="./icons/telegram.svg"
+                      alt="telegram"
+                      class="contact__item-img"
+                    >
+                    <p class="contacts__item-text">
+                      <span>Telegram:</span>
+                      <a
+                        href="tg://resolve?domain=antonleshkovich"
+                        class="info__link"
+                        target="_blank"
+                        >@antonleshkovich</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <div class="contacts__item-content">
+                    <img
+                      src="./icons/discord.svg"
+                      alt="discord"
+                      class="contact__item-img"
+                    >
+                    <p class="contacts__item-text">
+                      <span>Discord:</span>
+                      <a
+                        href="https://discordapp.com/users/938492719817457734/"
+                        class="info__link"
+                        target="_blank"
+                        >AntonLeshkovich</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__experience">
+        <div class="wrapper">
+            <div id="experience" class="experience">
+              <h2 class="experience__title title">Experience</h2>
+              <div class="experience__container">
+                <div class="experience__link__box">
+                  <a
+                  href="https://rolling-scopes-school.github.io/antonleshkovich-JSFEPRESCHOOL2022Q4/plants/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/plants.jpg"
+                    alt="plants"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+                <div class="experience__link__box">
+                  <a
+                  href="https://antonleshkovich.github.io/Momentum/momentum/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/momentum.jpg"
+                    alt="momentum"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+                <div class="experience__link__box">
+                  <a
+                  href="https://antonleshkovich.github.io/Shelter/shelter/pages/main/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/shelter.jpg"
+                    alt="shelter"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+                <div class="experience__link__box">
+                  <a
+                  href="https://antonleshkovich.github.io/virtual-keyboard/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/virtual-keyboard.jpg"
+                    alt="virtual-keyboard"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+                <div class="experience__link__box">
+                  <a
+                  href="https://antonleshkovich.github.io/Minesweeper/minesweeper/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/minesweeper.jpg"
+                    alt="minesweeper"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+                <div class="experience__link__box">
+                  <a
+                  href="https://antonleshkovich.github.io/CSS-Figures/dist/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/css-figures.jpg"
+                    alt="css-figures"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+                <div class="experience__link__box">
+                  <a
+                  href="https://antonleshkovich.github.io/cssBayan/cssBayan/"
+                  class="experience__link"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/cssBayan.jpg"
+                    alt="cssBayan"
+                    class="experience__img"
+                  >
+                </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__conteiner">
+          <div class="footer__copyrights">
+            <p class="footer__copyrights-text">© Leshkovich Anton 2023</p>
+          </div>
+          <div class="footer__socials">
+            <a
+              href="https://github.com/AntonLeshkovich"
+              class="footer__github-link"
+            >
+              <img
+                src="./icons/github-footer.svg"
+                alt="github"
+                class="footer__github-img"
+              >
+            </a>
+            <a href="tg://resolve?domain=antonleshkovich" class="footer__telegram-link">
+              <img
+                src="./icons/telegram-footer.svg"
+                alt="telegram"
+                class="footer__telegram-img"
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
